@@ -7,6 +7,8 @@ class Blog(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()
     max_home_articles = models.IntegerField()
+    github_url = models.CharField(max_length=100)
+    linkedin_url = models.CharField(max_length=100)
 
 
 class Article(models.Model):
@@ -22,3 +24,5 @@ class Article(models.Model):
 class Experience(models.Model):
     company = models.CharField(max_length=100)
     role = models.CharField(max_length=20)
+    start_year = models.CharField(max_length=10)
+    end_year = models.CharField(max_length=10)
