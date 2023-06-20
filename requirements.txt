@@ -1,4 +1,8 @@
-django~=4.2.1
+django~=4.2.2
 gunicorn~=20.1.0
 psycopg2-binary~=2.9.6
 dj-database-url~=2.0.0
+pytailwindcss~=0.1.4
+whitenoise~=6.5.0
+django-debug-toolbar~=4.1.0
+django-tinymce~=3.6.1
